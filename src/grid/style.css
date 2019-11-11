@@ -1,0 +1,57 @@
+.grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.grid-cell {
+  padding: 8px;
+  flex: 0 auto;
+}
+
+.grid-cell:hover {
+  transform: scale(1.03);
+  transition: all 0.1s;
+}
+
+.alphabet {
+  display: flex;
+  margin-left: -8px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.alphabet-item {
+  padding: 16px;
+  border: 2px solid #d0dbe1;
+  border-radius: 5px;
+  margin: 4px 8px;
+  cursor: pointer;
+  color: #d0dbe1;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+}
+
+.search {
+  border-radius: 5px;
+  border: solid 2px #d0dbe1;
+  background-color: #ffffff;
+  outline: none;
+  padding: 16px;
+  color: #d0dbe1;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.search:focus {
+  border-radius: 5px;
+  border: solid 2px #333333;
+  color: #333333;
+}
+
+.selected {
+  color: #333333;
+  border: 2px solid #333333;
+}

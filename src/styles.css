@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+.App {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px;
+}
+
+.controls {
+  margin: 24px 0;
+}
+
+.input {
+  border-radius: 5px;
+  border: solid 2px #d0dbe1;
+  background-color: #ffffff;
+  outline: none;
+  padding: 16px;
+  color: #d0dbe1;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.input:focus {
+  border-radius: 5px;
+  border: solid 2px #333333;
+  color: #333333;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 0 3px 2px 0 rgba(158, 158, 158, 0.377);
+  border: 1px solid rgba(46, 46, 46, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 0 auto;
+  background-color: rgb(255, 230, 230);
+}
+
+.card:hover {
+  border: 1px solid rgba(46, 46, 46, 0.08);
+  box-shadow: 0 8px 10px 0 rgba(46, 46, 46, 0.308);
+}
